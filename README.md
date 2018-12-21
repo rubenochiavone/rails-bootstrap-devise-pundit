@@ -1,24 +1,32 @@
-# README
+# rails-bootstrap-devise-pundit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample [rails](https://github.com/rails/rails) v5 app that uses the following gems:
 
-Things you may want to cover:
+- [bootstrap](https://github.com/twbs/bootstrap-rubygem) v4: Twitter bootstrap UI framework
+- [devise](https://github.com/plataformatec/devise) v4: Authentication engine
+- [pundit](https://github.com/varvet/pundit) v2: Authorization API
 
-* Ruby version
+## Setup
 
-* System dependencies
+Make sure that Ruby v2.3.x (also RubyGems) and SQLite3 are installed - take a look [here](https://guides.rubyonrails.org/getting_started.html#installing-rails) for help.
 
-* Configuration
+Then, install dependencies and setup database:
 
-* Database creation
+```shell
+bundle install # or bundle install --path vendor/bundle
+bundle exec rails db:setup
+```
 
-* Database initialization
+## Run app
 
-* How to run the test suite
+```shell
+bundle exec rails s
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Test
 
-* Deployment instructions
+`TODO: add tests`
 
-* ...
+## License
+
+Licensed under the MIT license, see the separate LICENSE.txt file.
