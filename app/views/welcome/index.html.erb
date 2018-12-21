@@ -1,2 +1,25 @@
 <h1>Welcome#index</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Value</th>
+      <th>Description</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @models.each do |model| %>
+      <tr>
+        <td><%= model.name %></td>
+        <td><%= model.value %></td>
+        <td><%= model.description %></td>
+        <td><%= link_to 'Show', model %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
 <p>Find me in app/views/welcome/index.html.erb</p>

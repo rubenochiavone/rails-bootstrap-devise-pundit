@@ -67,3 +67,6 @@ gem 'bootstrap', '~> 4.1.3'
 
 # Devise
 gem 'devise'
+
+# Pundit
+gem 'pundit'
