@@ -69,7 +69,7 @@ gem 'jquery-rails'
 gem 'bootstrap', '>= 4.3.1'
 
 # Devise
-gem 'devise', '>= 4.6.0'
+gem "devise", '>= 4.7.1'
 
 # Pundit
 gem 'pundit'
